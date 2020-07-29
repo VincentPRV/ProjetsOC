@@ -1,0 +1,21 @@
+.main_wrapper
+{
+	display: flex;
+	width: 900px;
+	margin: auto;
+}
+
+.contenu_gauche
+{
+	background-color:#26A69A;
+	display: flex;
+	flex-direction: column;
+	width: 250px;
+}
+
+.contenu_droite
+{
+	background-color:red;
+	width: calc(100% - 250px);
+}
+
