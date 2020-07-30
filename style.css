@@ -31,6 +31,13 @@
 #contenu_droite
 {
 	width: calc(100% - 250px);
+	display: flex;
+	flex-direction: column;
+	margin: auto;
+	border : solid 2px blue; /* aide visuel pour placement */
+	text-align: justify;
+	padding: 25px;
+	margin-bottom: 15px;
 }
 
 
@@ -70,13 +77,13 @@ img
 	display: flex;
 	justify-content: space-around;
 	align-items: center;
-	height: 100px;
+	height: 85px;
 
 }
 
-#contact, #propos, #loisir, #portrait  /* aide visuel pour placement */
+#contact, #propos, #loisir, #portrait
 {
-	border: 2px red solid;
+	border : solid 3px red; /* aide visuel pour placement */
 	width: 250px;
 }
 
@@ -110,4 +117,49 @@ img
 #contact li
 {
 	margin-bottom: 13px;
+}
+
+#titre_droite
+{
+	display: flex;
+	align-items: baseline;
+	justify-content: flex-start;
+	text-transform: uppercase;
+	border-bottom: 2px #26A69A solid;
+	height: 40px;
+}
+
+#titre_droite i
+{
+	font-size: 25px;
+	color: #26A69A;
+	padding-right: 15px;
+}
+
+
+
+#main_title h1
+{
+	text-transform: uppercase;
+	font-size: 35px;
+}
+
+#main_title p
+{
+	font-size: 16px;
+}
+
+#nom_couleur
+{
+	color: #26A69A;
+}
+
+#bordure
+{
+	border-bottom: 2px solid #26A69A;
+}
+
+header
+{
+	border: solid yellow 2px; /* aide visuel pour placement */
 }
