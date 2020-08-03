@@ -26,7 +26,7 @@
 	background-color:#26A69A;
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
+	justify-content: flex-start;
 	align-items: center;
 	width: 250px;
 }
@@ -34,15 +34,13 @@
 #contenu_droite
 {
 	width: 750px;
-	padding: 25px;
+	padding: 35px;
 	display: flex;
 	flex-direction: column;
-	border : solid 2px blue; /* aide visuel pour placement */
 }
 
 
 #image
-
 {
 	overflow:hidden;
     border-radius:70px;
@@ -85,7 +83,24 @@
 	border : solid 2px;
 	border-radius: 80%;
 	padding: 7px;	
+}
 
+
+#propos
+{
+	display: flex;
+	flex-direction: column;
+}
+
+#propos p
+{
+	padding: 0 45px 0 45px;
+}
+
+#loisir
+{
+	align-self: last baseline;
+	background-color: black;
 }
 
 #portrait
@@ -131,7 +146,14 @@
 	padding-right: 15px;
 }
 
+#main_title
+{
+	height: 180px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 
+}
 
 #main_title h1
 {
@@ -141,9 +163,8 @@
 
 #main_title p
 {
-	font-size: 16px;
-	font-weight: 300;
-
+	font-size: 20px;
+	margin-top: 2px;
 }
 
 #nom_couleur
@@ -161,18 +182,23 @@
 {
 	display: flex;
 	flex-direction: column;
+	width: calc( 100% - 225px );
+	margin-top: 10px;
 }
 
 .dates
 {
 	width: 225px;
 	display: flex;
-	align-content: flex-start;
+	align-items: baseline;
+	font-weight: bold;
 }
 
-.info
+.dates i
 {
-	width: calc( 100% - 225px );
+	font-size: 12px;
+	padding-right: 15px;
+	color: #26A69A;
 }
 
 .info p
@@ -189,6 +215,13 @@
 .contenu
 {
 	display: flex;
-	justify-content: flex-start;
+	justify-content: space-between;
+	margin: 15px 0 15px 0;
 }
 
+section
+{
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+}
