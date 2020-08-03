@@ -9,13 +9,16 @@
     font-weight: normal;
     font-style: normal;
 }
+
 #main_wrapper
 {
 	display: flex;
-	width: 900px;
+	width: 1000px;
 	margin: auto;
 	font-family: 'robotoregular';
 	font-size: 13px;
+	line-height: 1em;
+	text-align: justify;
 }
 
 #contenu_gauche
@@ -30,32 +33,21 @@
 
 #contenu_droite
 {
-	width: calc(100% - 250px);
+	width: 750px;
+	padding: 25px;
 	display: flex;
 	flex-direction: column;
-	margin: auto;
 	border : solid 2px blue; /* aide visuel pour placement */
-	text-align: justify;
-	padding: 25px;
-	margin-bottom: 15px;
 }
 
 
 #image
 
 {
-	border-radius: 50%;
-	overflow: hidden;
-	width: 125px;
-	height: 125px; 
-	border: 2px;
- }
-
-img 
-{
-	width: inherit;
-	height: inherit;
-	border-radius: inherit;
+	overflow:hidden;
+    border-radius:70px;
+    width:120px;
+    height:120px;
 }
 
 .titre_gauche
@@ -69,6 +61,7 @@ img
 	text-transform: uppercase;
 	font-size: 18px;
 	font-weight: bold;
+	line-height: 1.5em;
 	
 }
 
@@ -88,10 +81,11 @@ img
 
 #icones i
 {
-	font-size: 35px;
+	font-size: 30px;
 	border : solid 2px;
-	border-radius: 50%;
-	padding: 5px;	
+	border-radius: 80%;
+	padding: 7px;	
+
 }
 
 #portrait
@@ -111,6 +105,7 @@ img
 {
 	display: flex;
 	flex-direction: column;
+	
 }
 
 #contact li
@@ -126,6 +121,7 @@ img
 	text-transform: uppercase;
 	border-bottom: 2px #26A69A solid;
 	height: 40px;
+	margin-bottom: 15px;
 }
 
 .titre_droite i
@@ -147,6 +143,7 @@ img
 {
 	font-size: 16px;
 	font-weight: 300;
+
 }
 
 #nom_couleur
@@ -159,8 +156,39 @@ img
 	border-bottom: 2px solid #26A69A;
 }
 
-header
+
+.info
 {
-	border: solid yellow 2px; /* aide visuel pour placement */
+	display: flex;
+	flex-direction: column;
+}
+
+.dates
+{
+	width: 225px;
+	display: flex;
+	align-content: flex-start;
+}
+
+.info
+{
+	width: calc( 100% - 225px );
+}
+
+.info p
+{
+	margin: 5px 0px 5px 0px;
+}
+
+.info h3
+{
+	margin: 5px 0px 5px 0px;
+	text-transform: uppercase;
+}
+
+.contenu
+{
+	display: flex;
+	justify-content: flex-start;
 }
 
