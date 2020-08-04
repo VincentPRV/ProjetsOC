@@ -259,8 +259,7 @@ body
     {
     	width: 100%;
     	height: auto;
-    	margin: auto;
-    	text-align: center;    	
+    	margin: auto;   	
     }
 
     #detail_moi
@@ -271,6 +270,7 @@ body
     #propos
     {
     	height: auto;
+    	text-align: center; 
     }
 
     #portrait
@@ -281,5 +281,53 @@ body
     #main_title
     {
     	text-align: center;
+    }
+}
+
+@media all and (max-device-width: 480px)
+{
+    #main_wrapper
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: justify;
+        font-size: 8px;
+    }
+
+    #contenu_gauche
+    {
+    	width: 100%;
+    	height: auto;
+    	margin: auto;
+    	text-align: center;   
+    	display: flex;
+    	flex-direction: column; 	
+    }
+
+    #detail_moi
+    {
+    	width: 100%;
+    }
+
+    #propos
+    {
+    	height: auto;
+    	text-align: center; 
+    }
+
+    #portrait
+    {
+    	display: none;
+    }
+
+    #main_title
+    {
+    	text-align: center;
+    }
+
+    .titre_gauche
+    {
+    	font-size: 12px;
     }
 }
