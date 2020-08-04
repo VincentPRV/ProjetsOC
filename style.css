@@ -253,7 +253,7 @@ body
         display: flex;
         flex-direction: column-reverse;
         text-align: justify;
-        font-size: 11px;
+        font-size: 13px;
     }
 
     #contenu_gauche
@@ -352,5 +352,31 @@ body
     {
     	width: 100%;
     }
+
+	.titre_droite
+	{
+		height: 100%;
+	}
+
+	.titre_droite i
+	{
+		font-size: 20px;
+	}
+
+	#main_title
+	{
+		height: 100%;
+
+	}
+
+	#main_title h1
+	{
+		font-size: 30px;
+	}
+
+	#main_title p
+	{
+		font-size: 15px;
+	}
 
 }
