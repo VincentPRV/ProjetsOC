@@ -361,18 +361,23 @@ body
 	.titre_droite
 	{
 		height: 100%;
+		width: 100%;
 	}
 
 	.titre_droite i
 	{
-		font-size: 20px;
+		font-size: 15px;
+	}
+
+	.titre_droite h2
+	{
+		font-size: 15px;
 	}
 
 	#main_title
 	{
 		height: 100%;
 		width: 100%;
-		border: red solid 2px;
 
 	}
 
