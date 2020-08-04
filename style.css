@@ -12,7 +12,10 @@
 
 body
 {
-	background-color: #37474F;
+	background-color: #E4E4E1;
+ background-image: radial-gradient(at top center, rgba(255,255,255,0.03) 0%, rgba(0,0,0,0.03) 100%), linear-gradient(to top, rgba(255,255,255,0.1) 0%, rgba(143,152,157,0.60) 100%);
+ 	background-blend-mode: normal, multiply;
+
 }
 
 #main_wrapper
@@ -235,6 +238,7 @@ body
 {
 	width: 100%;
 }
+
 .detail_reco
 {
 	display: flex;
@@ -246,5 +250,32 @@ body
     #main_wrapper
     {
         width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: justify;
+    }
+
+    #contenu_gauche
+    {
+    	width: 100%;
+    	height: auto;
+    	margin: auto;
+    	
+    }
+
+    #detail_moi
+    {
+    	width: 100%;
+    }
+
+    #propos
+    {
+    	height: auto;
+    	text-align: center;
+    }
+
+    #portrait
+    {
+    	display: none;
     }
 }
