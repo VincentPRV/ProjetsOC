@@ -253,13 +253,17 @@ body
         display: flex;
         flex-direction: column-reverse;
         text-align: justify;
+        font-size: 11px;
     }
 
     #contenu_gauche
     {
     	width: 100%;
     	height: auto;
-    	margin: auto;   	
+    	margin: auto;   
+    	display: flex;
+    	flex-direction: column;	
+
     }
 
     #detail_moi
@@ -282,27 +286,39 @@ body
     {
     	text-align: center;
     }
+
+    .contenu
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    .dates
+    {
+    	width: 100%;
+    }
+
 }
 
 @media all and (max-device-width: 480px)
 {
-    #main_wrapper
+	   #main_wrapper
     {
         width: auto;
         display: flex;
         flex-direction: column-reverse;
         text-align: justify;
-        font-size: 8px;
+        font-size: 11px;
     }
 
     #contenu_gauche
     {
     	width: 100%;
     	height: auto;
-    	margin: auto;
-    	text-align: center;   
+    	margin: auto;   
     	display: flex;
-    	flex-direction: column; 	
+    	flex-direction: column;	
+
     }
 
     #detail_moi
@@ -326,8 +342,15 @@ body
     	text-align: center;
     }
 
-    .titre_gauche
+    .contenu
     {
-    	font-size: 12px;
+    	display: flex;
+    	flex-direction: column;
     }
+
+    .dates
+    {
+    	width: 100%;
+    }
+
 }
