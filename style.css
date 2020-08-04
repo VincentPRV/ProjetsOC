@@ -260,7 +260,7 @@ body
     	width: 100%;
     	height: auto;
     	margin: auto;
-    	
+    	text-align: center;    	
     }
 
     #detail_moi
@@ -271,11 +271,15 @@ body
     #propos
     {
     	height: auto;
-    	text-align: center;
     }
 
     #portrait
     {
     	display: none;
+    }
+
+    #main_title
+    {
+    	text-align: center;
     }
 }
