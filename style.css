@@ -298,6 +298,11 @@ body
     	width: 100%;
     }
 
+    .info
+    {
+    	width: 100%;
+    }
+
 }
 
 @media all and (max-device-width: 480px)
@@ -366,6 +371,8 @@ body
 	#main_title
 	{
 		height: 100%;
+		width: 100%;
+		border: red solid 2px;
 
 	}
 
@@ -377,6 +384,11 @@ body
 	#main_title p
 	{
 		font-size: 15px;
+	}
+
+	.info
+	{
+	    width: 100%;
 	}
 
 }
