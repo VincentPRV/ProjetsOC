@@ -10,6 +10,16 @@
     font-style: normal;
 }
 
+@media all and (max-width: 1024px)
+{
+	#main_wrapper
+	{
+		width: auto;
+	}
+}
+
+
+
 #main_wrapper
 {
 	display: flex;
@@ -43,9 +53,9 @@
 #image
 {
 	overflow:hidden;
-    border-radius:70px;
-    width:120px;
-    height:120px;
+    border-radius:70%;
+    width:150px;
+    height:150px;
 }
 
 .titre_gauche
@@ -230,7 +240,7 @@ section
 {
 	text-transform: uppercase;
 	font-weight: normal;
-	width: 300px;
+	width: 340px;
 }
 
 .detail_reco
