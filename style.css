@@ -90,6 +90,7 @@
 {
 	display: flex;
 	flex-direction: column;
+	height: 660px;
 }
 
 #propos p
@@ -99,8 +100,7 @@
 
 #loisir
 {
-	align-self: last baseline;
-	background-color: black;
+	
 }
 
 #portrait
@@ -224,4 +224,17 @@ section
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
+}
+
+.info_reco h3
+{
+	text-transform: uppercase;
+	font-weight: normal;
+	width: 300px;
+}
+
+.detail_reco
+{
+	display: flex;
+	justify-content: flex-start;
 }
