@@ -253,14 +253,17 @@ body
         display: flex;
         flex-direction: column-reverse;
         text-align: justify;
+        font-size: 13px;
     }
 
     #contenu_gauche
     {
     	width: 100%;
     	height: auto;
-    	margin: auto;
-    	text-align: center;    	
+    	margin: auto;   
+    	display: flex;
+    	flex-direction: column;	
+
     }
 
     #detail_moi
@@ -271,6 +274,7 @@ body
     #propos
     {
     	height: auto;
+    	text-align: center; 
     }
 
     #portrait
@@ -282,4 +286,114 @@ body
     {
     	text-align: center;
     }
+
+    .contenu
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    .dates
+    {
+    	width: 100%;
+    }
+
+    .info
+    {
+    	width: 100%;
+    }
+
+}
+
+@media all and (max-device-width: 480px)
+{
+	   #main_wrapper
+    {
+        width: auto;
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: justify;
+        font-size: 11px;
+    }
+
+    #contenu_gauche
+    {
+    	width: 100%;
+    	height: auto;
+    	margin: auto;   
+    	display: flex;
+    	flex-direction: column;	
+
+    }
+
+    #detail_moi
+    {
+    	width: 100%;
+    }
+
+    #propos
+    {
+    	height: auto;
+    	text-align: center; 
+    }
+
+    #portrait
+    {
+    	display: none;
+    }
+
+    #main_title
+    {
+    	text-align: center;
+    }
+
+    .contenu
+    {
+    	display: flex;
+    	flex-direction: column;
+    }
+
+    .dates
+    {
+    	width: 100%;
+    }
+
+	.titre_droite
+	{
+		height: 100%;
+		width: 100%;
+	}
+
+	.titre_droite i
+	{
+		font-size: 15px;
+	}
+
+	.titre_droite h2
+	{
+		font-size: 15px;
+	}
+
+	#main_title
+	{
+		height: 100%;
+		width: 100%;
+
+	}
+
+	#main_title h1
+	{
+		font-size: 30px;
+	}
+
+	#main_title p
+	{
+		font-size: 15px;
+	}
+
+	.info
+	{
+	    width: 100%;
+	}
+
 }
