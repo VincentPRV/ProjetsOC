@@ -85,10 +85,17 @@ body
 
 #icones i
 {
+	width: 30px;
+	height: 30px;
 	font-size: 30px;
 	border : solid 2px;
 	border-radius: 80%;
-	padding: 7px;	
+	
+}
+
+.run{
+	padding-left: 12px;
+	padding-right: 4px;
 }
 
 
