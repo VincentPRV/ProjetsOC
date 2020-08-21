@@ -50,8 +50,8 @@ body
 {
 	overflow:hidden;
     border-radius:70%;
-    width:150px;
-    height:150px;
+    width:175px;
+    height:175px;
 }
 
 .titre_gauche
@@ -85,19 +85,17 @@ body
 
 #icones i
 {
-	width: 30px;
-	height: 30px;
-	font-size: 30px;
-	border : solid 2px;
-	border-radius: 80%;
-	
+	font-size: 25px;
+	display: inline-block;
+  	border-radius: 50px;
+  	border: 1px solid #212121;
+  	padding: 10px 10px;
 }
 
-.run{
-	padding-left: 12px;
-	padding-right: 4px;
+.fa-running
+{
+	height: 22px;
 }
-
 
 #propos
 {
