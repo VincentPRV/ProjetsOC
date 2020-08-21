@@ -2,9 +2,6 @@
     font-family: 'robotoregular';
     src: url('Roboto-Regular-webfont.eot');
     src: url('Roboto-Regular-webfont.eot?#iefix') format('embedded-opentype'),
-         url('Roboto-Regular-webfont.woff2') format('woff2'),
-         url('Roboto-Regular-webfont.woff') format('woff'),
-         url('Roboto-Regular-webfont.ttf') format('truetype'),
          url('Roboto-Regular-webfont.svg#robotoregular') format('svg');
     font-weight: normal;
     font-style: normal;
@@ -21,7 +18,7 @@ body
 #main_wrapper
 {
 	display: flex;
-	width: 1000px;
+	max-width: 1000px;
 	margin: auto;
 	font-family: 'robotoregular';
 	font-size: 13px;
@@ -37,12 +34,12 @@ body
 	flex-direction: column;
 	justify-content: flex-start;
 	align-items: center;
-	width: 25%; /* 250px */
+	width: 25%; 
 }
 
 #contenu_droite
 {
-	width: 75%; /* 750px */
+	width: 75%; 
 	padding: 35px;
 	display: flex;
 	flex-direction: column;
@@ -53,8 +50,8 @@ body
 {
 	overflow:hidden;
     border-radius:70%;
-    width:150px;
-    height:150px;
+    width:175px;
+    height:175px;
 }
 
 .titre_gauche
@@ -83,23 +80,28 @@ body
 
 #contact, #propos, #loisir, #portrait
 {
-	width: 100%; /* 250px */
+	width: 100%; 
 }
 
 #icones i
 {
-	font-size: 30px;
-	border : solid 2px;
-	border-radius: 80%;
-	padding: 7px;	
+	font-size: 25px;
+	display: inline-block;
+  	border-radius: 50px;
+  	border: 1px solid #212121;
+  	padding: 10px 10px;
 }
 
+.fa-running
+{
+	height: 22px;
+}
 
 #propos
 {
 	display: flex;
 	flex-direction: column;
-	height: 660px;
+	height: 600px;
 }
 
 #propos p
@@ -186,13 +188,13 @@ body
 {
 	display: flex;
 	flex-direction: column;
-	width: 70%; /* 525px */
+	width: 70%; 
 	margin-top: 10px;
 }
 
 .dates
 {
-	width: 30%; /* 225px */
+	width: 30%; 
 	display: flex;
 	align-items: baseline;
 	font-weight: bold;
@@ -342,9 +344,10 @@ body
     	display: none;
     }
 
-    #main_title
+    #main_title h1
     {
-    	text-align: center;
+		text-align: center;
+		font-size: 25px;
     }
 
     .contenu
@@ -379,11 +382,6 @@ body
 		height: 100%;
 		width: 100%;
 
-	}
-
-	#main_title h1
-	{
-		font-size: 30px;
 	}
 
 	#main_title p
